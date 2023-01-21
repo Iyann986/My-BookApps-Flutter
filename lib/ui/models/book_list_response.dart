@@ -1,11 +1,11 @@
-class BookListReponse {
+class BookListResponse {
   String? error;
   String? total;
   List<Books>? books;
 
-  BookListReponse({this.error, this.total, this.books});
+  BookListResponse({this.error, this.total, this.books});
 
-  BookListReponse.fromJson(Map<String, dynamic> json) {
+  BookListResponse.fromJson(Map<String, dynamic> json) {
     error = json['error'];
     total = json['total'];
     if (json['books'] != null) {
