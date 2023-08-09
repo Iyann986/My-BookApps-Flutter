@@ -131,7 +131,7 @@ class _DetailBookPageState extends State<DetailBookPage> {
                       width: double.infinity,
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                            primary: const Color(0xff473DD5)),
+                            backgroundColor: const Color(0xff473DD5)),
                         onPressed: () async {
                           Uri uri = Uri.parse(controller.detailBook!.url!);
                           try {
