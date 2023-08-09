@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       create: (context) => BookController(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+        title: 'Bookly',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
