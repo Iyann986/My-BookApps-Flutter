@@ -86,7 +86,7 @@ class _OnbordingPageState extends State<OnbordingPage> {
                         contents[i].title,
                         textAlign: TextAlign.start,
                         style: GoogleFonts.inter(
-                            fontSize: 35,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold,
                             color: const Color(0xff6746CC)),
                       ),
